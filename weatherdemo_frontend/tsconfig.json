@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                   // Support async/await and Promises
+    "lib": ["DOM", "ESNext"],             // Include Promises, async, and browser APIs
+    "module": "ESNext",                   // For ESM modules (Vite default)
+    "moduleResolution": "Node",           // How modules are resolved
+    "jsx": "react-jsx",                   // For React 17+ JSX Transform
+    "strict": true,                       // Recommended for TypeScript type safety
+    "esModuleInterop": true,              // For default imports of CommonJS modules
+    "skipLibCheck": true,                 // Speeds up compilation by skipping type checking on node_modules
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],                     // Your source code directory
+  "exclude": ["node_modules"]             // Always exclude node_modules
+}
